@@ -1,0 +1,93 @@
+.logoImg {
+  height: 45px;
+}
+.topSection {
+  height: 162px;
+  background-image: linear-gradient(
+    to right,
+    #f0e9e3,
+    #eeece2,
+    #e9efe3,
+    #e2f2e9,
+    #dcf5f2
+  );
+}
+.searchSec {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.searchIcon {
+  position: absolute;
+  left: 11px;
+  top: 7px;
+  z-index: 1;
+  color: #b3b3b3;
+}
+.searchInput {
+  padding-left: 54px !important;
+}
+img.toolImage {
+  height: 45px;
+}
+.subHeading {
+  font-weight: 400;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  border-bottom: 2px solid #4f4f4f;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tabIcon {
+  height: 18px;
+  width: 18px;
+}
+.tabContentIcon {
+  height: 27px;
+  width: 27px;
+}
+
+.tabSection {
+	width: 100%;
+	margin-top: 36px;
+}
+.tabFirst {
+	width: 45%;
+	float: left;
+}
+.tabSecond {
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+}
+.topicText {
+	font-size: 18px;
+	color: grey;
+}
